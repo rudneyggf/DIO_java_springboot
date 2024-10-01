@@ -1,0 +1,3 @@
+ArrayList é melhor quando o objetivo é mais acessar do que adicionar/remover.
+LinkedList é melhor quando o objetivo é o contrário da ArrayList.
+
