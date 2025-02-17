@@ -33,10 +33,7 @@ public class aplicaçãoTeste implements CommandLineRunner {
         System.out.println("Digite o nome do empresa: ");
         String nome = scanner.nextLine();
         System.out.println("Digite o nome do jogo: ");
-        String Nomejogo = scanner.nextLine();
         Empresa epGenerica = new Empresa(nome);
         CadastraEmpresa(epGenerica);
-        CadastraJogo(Nomejogo,epGenerica);
-        System.out.println(jogoRepository.findById(4).getTitulo());
     }
 }
